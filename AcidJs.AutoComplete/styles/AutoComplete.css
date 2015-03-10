@@ -1,0 +1,238 @@
+/*
+ * @namespace window.AcidJs
+ * @class AutoComplete
+ * @stylesheet
+ * @author Martin Ivanov
+ * @web http://wemakesites.net
+ **/
+
+.acidjs-autocomplete *
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    font-variant: normal;
+}
+
+.acidjs-autocomplete ul,
+.acidjs-autocomplete input
+{
+    display: block;
+    font: 14px Arial, Helvetica, Sans-serif;
+}
+
+.acidjs-autocomplete ul,
+.acidjs-autocomplete input
+{
+    border: solid 1px #b2b2b2;
+    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    
+    -webkit-box-shadow: 0 0 1px #f6f6f6,
+                        0 1px 1px #eaeaea;
+    -moz-box-shadow: 0 0 1px #f6f6f6,
+                     0 1px 1px #eaeaea;
+    box-shadow: 0 0 1px #f6f6f6,
+                0 1px 1px #eaeaea;
+}
+
+.acidjs-autocomplete
+{
+    display: inline-block;
+    vertical-align: middle;
+    visibility: visible !important;
+}
+
+.acidjs-autocomplete div
+{
+    position: relative;
+}
+
+.acidjs-autocomplete input
+{
+    color: #333;
+    height: 22px;
+    outline: medium none;
+    padding: 4px;
+    background-color: #fff;
+    width: 200px;
+    height: 35px;
+}
+
+.acidjs-autocomplete .acidjs-autocomplete-loading,
+.acidjs-autocomplete .acidjs-autocomplete-loading:focus
+{
+    
+    -webkit-box-shadow: 0 0 4px #666;
+    -moz-box-shadow: 0 0 4px #666;
+    box-shadow: 0 0 4px #666;
+}
+
+.acidjs-autocomplete .acidjs-autocomplete-error
+{
+    border-color: #f00;
+    
+    -webkit-box-shadow: 0 0 2px #f00;
+    -moz-box-shadow: 0 0 2px #f00;
+    box-shadow: 0 0 2px #f00;
+}
+
+.acidjs-autocomplete input:focus
+{
+    border-color: #4d90fe;
+    
+    -webkit-box-shadow: 0 0 2px #666;
+    -moz-box-shadow: 0 0 2px #666;
+    box-shadow: 0 0 2px #666;
+}
+
+.acidjs-autocomplete ul
+{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    max-height: 120px;
+    margin: 4px 0 0;
+    overflow: auto;
+    opacity: 1;
+    background: #fff;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    
+    -webkit-transition: opacity 250ms;
+    -moz-transition: opacity 240ms;
+    -ms-transition: opacity 250ms;
+    -o-transition: opacity 250ms;
+    transition: opacity 250ms;
+}
+
+.acidjs-autocomplete .acidjs-autocomplete-hidden
+{
+    opacity: 0;
+    left: -9999px;
+}
+
+.acidjs-autocomplete a
+{
+    display: block;
+    line-height: 30px;
+    cursor: pointer;
+    color: #333;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.acidjs-autocomplete a
+{
+    padding: 0 4px;
+}
+
+.acidjs-autocomplete li:hover a,
+.acidjs-autocomplete .acidjs-autocomplete-item-selected a
+{
+    background: #333;
+    color: #fff;
+    
+    -webkit-transition: background 250ms;
+    -moz-transition: background 240ms;
+    -ms-transition: background 250ms;
+    -o-transition: background 250ms;
+    transition: background 250ms;
+}
+
+.acidjs-autocomplete input:-moz-placeholder 
+{
+    color: #91a1ae;
+    font-style: italic;
+}
+
+.acidjs-autocomplete input::-moz-placeholder 
+{
+    color: #91a1ae;
+    font-style: italic;
+}
+
+.acidjs-autocomplete input:-webkit-placeholder 
+{
+    color: #91a1ae;
+    font-style: italic;
+}
+
+.acidjs-autocomplete input::-webkit-placeholder 
+{
+    color: #91a1ae;
+    font-style: italic;
+}
+
+.acidjs-autocomplete input:placeholder 
+{
+    color: #91a1ae;
+    font-style: italic;
+}
+
+.acidjs-autocomplete input::placeholder 
+{
+    color: #91a1ae;
+    font-style: italic;
+}
+
+.acidjs-autocomplete input::-ms-clear 
+{
+    display: none;
+}
+
+.acidjs-autocomplete a:disabled
+{
+    background: red;
+}
+
+.acidjs-autocomplete span
+{
+    display: block;
+    text-align: right;
+    color: #f00;
+    cursor: hand;
+    cursor: pointer;
+}
+
+/*
+ * windows7 skin
+ **/
+.acidjs-autocomplete.acidjs-autocomplete-windows7 .acidjs-autocomplete-loading,
+.acidjs-autocomplete.acidjs-autocomplete-windows7 .acidjs-autocomplete-loading:focus
+{
+    -webkit-box-shadow: 0 0 4px #4d90fe;
+    -moz-box-shadow: 0 0 4px #4d90fe;
+    box-shadow: 0 0 4px #4d90fe;
+}
+
+.acidjs-autocomplete.acidjs-autocomplete-windows7 input:focus
+{
+    border-color: #4d90fe;
+    
+    -webkit-box-shadow: 0 0 2px #4d90fe;
+    -moz-box-shadow: 0 0 2px #4d90fe;
+    box-shadow: 0 0 2px #4d90fe;
+}
+
+.acidjs-autocomplete.acidjs-autocomplete-windows7 li:hover a,
+.acidjs-autocomplete.acidjs-autocomplete-windows7 .acidjs-autocomplete-item-selected a
+{
+    background: #4d90fe;
+    color: #fff;
+}
