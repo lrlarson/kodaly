@@ -11,13 +11,17 @@
 	visibility: hidden;
 	line-height: 0;
 	height: 0;
+    margin: 0;
 }
 /* display none until init */
 .owl-carousel{
 	display: none;
 	position: relative;
 	width: 100%;
+    height: 220px !important;
 	-ms-touch-action: pan-y;
+    overflow: auto;
+    overflow-y: hidden;
 }
 .owl-carousel .owl-wrapper{
 	display: none;
@@ -69,3 +73,44 @@
   -ms-transform: translate3d(0,0,0);
 }
 
+@media (max-width: 991px) {
+
+.owl-carousel{
+display: none;
+position: relative;
+width: 100%;
+height: 150px !important;
+-ms-touch-action: pan-y;
+overflow: auto;
+overflow-y: hidden;
+}
+    
+}
+
+@media (max-width: 767px) {
+ 
+.owl-carousel{
+display: none;
+position: relative;
+width: 100%;
+height: 190px !important;
+-ms-touch-action: pan-y;
+overflow: auto;
+overflow-y: hidden;
+}
+    
+}
+
+@media (max-width: 479px) {
+ 
+.owl-carousel{
+display: none;
+position: relative;
+width: 100%;
+height: 240px !important;
+-ms-touch-action: pan-y;
+overflow: auto;
+overflow-y: hidden;
+}
+    
+}

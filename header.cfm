@@ -1,5 +1,5 @@
 <div class="w-container main-wrapper">
-    <div class="w-hidden-tiny top_bar"><a class="top_bar" href="http://www.hnu.edu/index.php">← &nbsp;Holy Names University</a>
+    <div class="w-hidden-tiny top_bar"><a class="top_bar" href="http://www.hnu.edu/index.php">&#8592; &nbsp;Holy Names University</a>
     </div>
     <header class="w-hidden-tiny header-wrapper">
       <div class="w-container header">
@@ -11,7 +11,7 @@
           </div>
           <div class="w-col w-col-9 w-col-small-9">
             <a class="w-inline-block kodaly-header" href="index.cfm">
-              <div class="kodaly-header-link">Kodály Center</div>
+              <div class="kodaly-header-link">Kod&aacute;ly Center</div>
               <div class="collection-title">The American Folk Song Collection</div>
             </a>
           </div>
@@ -25,14 +25,14 @@
         </div>
         <nav class="w-nav-menu nav-menu" role="navigation">
         <cfif find("the-kodaly-vision",#cgi.SCRIPT_NAME#) GT 0>
-        <a class="w-nav-link nav-link w--current" href="the-kodaly-vision.cfm" id="vision">the kodály vision</a>
+        <a class="w-nav-link nav-link w--current" href="the-kodaly-vision.cfm" id="vision">the kod&aacute;ly vision</a>
         <cfelse>
-        <a class="w-nav-link nav-link" href="the-kodaly-vision.cfm" id="vision">the kodály vision</a>
+        <a class="w-nav-link nav-link" href="the-kodaly-vision.cfm" id="vision">the kod&aacute;ly vision</a>
         </cfif>
         <cfif find("the-kodaly-center.cfm",#cgi.SCRIPT_NAME#) GT 0>
-        <a class="w-nav-link nav-link w--current" href="the-kodaly-center.cfm" id="center">the kodály center</a>
+        <a class="w-nav-link nav-link w--current" href="the-kodaly-center.cfm" id="center">the kod&aacute;ly center</a>
         <cfelse>
-        <a class="w-nav-link nav-link" href="the-kodaly-center.cfm" id="center">the kodály center</a>
+        <a class="w-nav-link nav-link" href="the-kodaly-center.cfm" id="center">the kod&aacute;ly center</a>
         </cfif>
         <cfif find("news.cfm",#cgi.SCRIPT_NAME#) GT 0>
         <a class="w-nav-link nav-link w--current" href="news.cfm" id="news">news</a>

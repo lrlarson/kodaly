@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Kodály Center :: Kodály in the Classroom</title>
+  <title>Kodály Center for Music Education :: Kodály in the Classroom</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="generator" content="Webflow">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -61,7 +61,7 @@
     </div>
   </div>
   <a name="transcript"></a><main class="w-container main-content">
-    <div class="h2">Method</div>
+    <div class="h2">Classroom</div>
     <div class="caption">Video Transcript</div>
     <div>
       <div class="w-embed">

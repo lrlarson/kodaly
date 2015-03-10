@@ -404,7 +404,6 @@ motivesList = kodalyData.getMotiveList();
 			handleSearchChange();			
 });
 $("#search").keyup(function(event){
-			alert('keyup');
     		if(event.keyCode == 13){	
         	handleSearchChange();
 			//$(".search-box").blur();

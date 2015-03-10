@@ -136,6 +136,8 @@
       <br>
       <br>Seeger, Pete. <em>American Play Parties. </em> Folkways, FC 7604, 1959.
       <br>
+      <br>Smithsonian Folkways <A href="www.si.edu/folkways">www.si.edu/folkways</A>
+      <br>
       <br>Yurchenco, Henrietta, ed. <em>Latin American Children Game Songs. </em> Asch Records AHS 51, 1968.</p>
   </main>
 	

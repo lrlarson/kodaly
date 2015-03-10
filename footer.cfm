@@ -9,13 +9,13 @@
                         <img src="images/hnu_logo_stack.svg" width="100" alt="53cf24aaba039f772c45b0a6_hnu_logo_stack.svg">
                     </a>
                     <div class="footer-address">
-                        <p class="footer-p">Kodály Center for Music Education&nbsp;
+                        <p class="footer-p">Kod&aacute;ly Center
                             <br>3500 Mountain Boulevard&nbsp;
                             <br>Oakland, CA 94619&nbsp;
                             <br>510-436-1000</p>
                     </div>
                 </div>
-                <div class="w-col w-col-4 w-col-small-4">
+                <!--<div class="w-col w-col-4 w-col-small-4">
                     <div class="social-media-wrapper">
                         <a class="w-inline-block footer-social-media-icon" href="#">
                             <img src="images/icon_facebook.svg" alt="Facebook" width="50">
@@ -27,7 +27,7 @@
                             <img src="images/icon_youtube.svg" alt="YouTube" width="50">
                         </a>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     <div class="w-container footer-bar">
@@ -50,7 +50,7 @@
     <div id="modal" style="display: none;" class="modal-example-content">
         <div class="modal-example-body">
             <button type="button" class="close_button" onclick="$.fn.custombox('close');">&times;</button><br>
-            <h4>Kodály Center for Music Education :: Mailing List</h4><br>
+            <h4>Kod&aacute;ly Center for Music Education :: Mailing List</h4><br>
             <input id="first_name" class="input" name="name" type="text" placeholder="First Name" size="30" /><br />
             <input id="last_name" class="input" name="name" type="text" placeholder="Last Name" size="30" /><br />
             <input id="email_address" class="input" name="name" type="text" placeholder="Email Address" size="30" /><br />
@@ -72,5 +72,15 @@ $('#mailing_list').on('click', function ( e ) {
     e.preventDefault();
 });
     </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-8181123-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
     <!-- end footer -->

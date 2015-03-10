@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Kodály Center  — The American Folk Song Collection</title>
+    <title>Kodály Center  — The American Folk Song Collection</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/webflow.css">
@@ -60,18 +60,18 @@
                 <a class="w-inline-block content-box vision" href="the-kodaly-vision.cfm">
                     <div>
                         <div class="box-title">
-                            <div>The Kodály Vision</div>
+                            <div>The Kodály Vision</div>
                         </div>
                     </div>
                     <p class="homepage-box-text">
                         <br>
-                        <br>Learn about Zoltán Kodály, his history, philosophy, and its application in the classroom.</p>
+                        <br>Learn about Zoltán Kodály, his history, philosophy, and its application in the classroom.</p>
                 </a>
             </div>
             <div class="w-col w-col-4 w-col-stack">
                 <a class="w-inline-block content-box center" href="the-kodaly-center.cfm">
                     <div class="box-title">
-                        <div>The Kodály Center</div>
+                        <div>The Kodály Center</div>
                     </div>
                 </a>
             </div>
