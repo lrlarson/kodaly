@@ -730,10 +730,62 @@ font-weight: 400;
 font-size: 17px;
 }
 .sidebar {
-padding-right: 0px;
-padding-left: 0px;
-background-color: #575347;
+position: fixed;
+display: block;
+float: left;
+margin-top: 30px;
+width: 200px;
+font-family: 'droid sans', sans-serif;
+font-size: 18px;
+line-height: 2em;
 }
+.sidebar ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.sidebar a {
+	text-decoration: none;
+	color: #000;
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+.sidebar a:hover {
+	text-decoration: none;
+	color: #b50430;
+}
+.active {
+	font-style: italic;
+	color: #b50430 !important;
+	text-decoration: underline;
+}
+.rightColumn {
+	max-width: 550px;
+	float: left;
+	margin-left: 250px;
+}
+.rightColumn button,
+.rightColumn button:hover {
+	text-decoration: none !important;
+	color: #fff !important;
+	background-color: #b50430 !important;
+}
+@media (max-width: 730px) {
+.sidebar {
+	position: relative;
+	width: 100%;
+	float: left;
+	display: block;
+	margin: 30px 0;
+}
+.rightColumn {
+	width: 100%;
+	float: left;
+	display: block;
+	margin: 0;
+}
+} 
 .main-content-search {
 padding-right: 10px;
 padding-left: 10px;
