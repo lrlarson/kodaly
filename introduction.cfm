@@ -30,7 +30,7 @@
     --->
   </div>
   <main class="w-container main-content">
-	<div class="sidebar">
+	<div class="sidebarCurr">
 		<ul>
 		
     <li ><a href="curriculum.cfm">Kod&aacute;ly and Education</a></li>
@@ -41,7 +41,7 @@
     
 		</ul>	
 	</div>	  
-    <div class="rightColumn">
+    <div class="rightColumnCurr">
      <p><div class="h2">Holy Names Music Curriculum - Introduction</div></p>
 
 <p>This curriculum is modeled on a Hungarian music curriculum adopted in 1983 and used in numerous Hungarian singing schools during the last two decades. A translation of the Hungarian curriculum was made by Judit Szalai, daughter of Judit Hartyányi, who accompanied her mother during two years when Judit Hartyányi taught at Holy Names University. It is informed by translations she also made of EnekZene, the series of textbooks and workbooks by Helga Szabó (published in 1981) on which the Hungarian curriculum is based. </p>

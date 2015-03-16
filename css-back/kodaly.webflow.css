@@ -730,15 +730,6 @@ font-weight: 400;
 font-size: 17px;
 }
 .sidebar {
-padding-right: 0px;
-padding-left: 0px;
-background-color: #575347;
-}
-
-/* larry css */
-
-.sidebarCurr {
-
 position: fixed;
 display: block;
 float: left;
@@ -748,19 +739,19 @@ font-family: 'droid sans', sans-serif;
 font-size: 18px;
 line-height: 2em;
 }
- ul {
+.sidebar ul {
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
 }
- a {
+.sidebar a {
 	text-decoration: none;
 	color: #000;
 	-webkit-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
 	transition: all 500ms ease;
 }
- a:hover {
+.sidebar a:hover {
 	text-decoration: none;
 	color: #b50430;
 }
@@ -769,35 +760,32 @@ line-height: 2em;
 	color: #b50430 !important;
 	text-decoration: underline;
 }
-.rightColumnCurr {
+.rightColumn {
 	max-width: 550px;
 	float: left;
 	margin-left: 250px;
 }
-
- .rightColumnCurr .button:hover {
+.rightColumn button,
+.rightColumn button:hover {
 	text-decoration: none !important;
 	color: #fff !important;
 	background-color: #b50430 !important;
 }
 @media (max-width: 730px) {
-.sidebarCurr {
+.sidebar {
 	position: relative;
 	width: 100%;
 	float: left;
 	display: block;
 	margin: 30px 0;
 }
-.rightColumnCurr {
+.rightColumn {
 	width: 100%;
 	float: left;
 	display: block;
 	margin: 0;
 }
-}	
-	
-/* end larry changes */
-
+} 
 .main-content-search {
 padding-right: 10px;
 padding-left: 10px;

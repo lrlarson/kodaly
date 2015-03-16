@@ -30,7 +30,7 @@
     --->
   </div>
   <main class="w-container main-content">
-    <div class="sidebar">
+    <div class="sidebarCurr">
     <ul>
     <li ><a href="curriculum.cfm">Kod&aacute;ly and Education</a></li>
     <li class="active"><a href="sequence.cfm">Sequence of Concepts</a></li>
@@ -40,7 +40,7 @@
     
     </ul> 
   </div>    
-    <div class="rightColumn">
+    <div class="rightColumnCurr">
      <p><div class="h2">SEQUENCE OF INTRODUCING MUSIC CONCEPTS/ELEMENTS</div></p>
 
 <p>We recommend the following order for introducing music elements and concepts when starting in first grade. Grade guidelines are based on two or more music classes per week. This sequence has been created by faculty and students at Holy Names over the past four decades, as we seek to implement Kod&aacute;ly’s ideas in the United States.</p>
@@ -49,7 +49,7 @@
 
     </div>
    
-    <div class="rightColumn">
+    <div class="rightColumnCurr">
 	    
 	    
    

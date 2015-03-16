@@ -30,7 +30,7 @@
     --->
   </div>
   <main class="w-container main-content">
-    <div class="sidebar">
+    <div class="sidebarCurr">
     <ul>
     <li class="active"><a href="curriculum.cfm">Kod&aacute;ly and Education</a></li>
     <li><a href="sequence.cfm">Sequence of Concepts</a></li>
@@ -40,7 +40,7 @@
      
     </ul> 
   </div>    
-    <div class="rightColumn">
+    <div class="rightColumnCurr">
      <p><div class="h2">Zoltán Kodály and Music Education</div></p>
 
 <p>Zoltán Kodály (1882-1967) was a visionary teacher, composer and philosopher whose work has influenced musicians and music educators around the world. Following his folk song collecting trips with Béla Bartók in Hungary in the early 1900s, Kodály conceived of a monumental idea: that music could be taught artistically using the traditional folk songs of a culture. Gathering talented, creative teachers around him, Kodály developed a philosophy of music education based on the radical idea of universal music literacy.</p>

@@ -30,7 +30,7 @@
     --->
   </div>
   <main class="w-container main-content">
-    <div class="sidebar">
+    <div class="sidebarCurr">
     <ul>
     <li ><a href="curriculum.cfm">Kod&aacute;ly and Education</a></li>
     <li><a href="introduction.cfm">Curriculum Introduction</a></li>
@@ -39,7 +39,7 @@
       
     </ul> 
   </div>    
-    <div class="rightColumn">
+    <div class="rightColumnCurr">
      <p><div class="h2">Curricula, Grades 1 & 2</div></p>
 
 <p>This curriculum guide is designed for teachers who have studied in Kodaly Teacher Education programs. Based on the design of the Hungarian curriculum mentioned in the Introduction, it indicates the core musical skill development for each lesson. This model has several advantages. </p>
@@ -56,7 +56,7 @@
 
     </div>
    
-    <div class="rightColumn">
+    <div class="rightColumnCurr">
 	    
 	     <p><div class="h2">Curriculum Contents</div></p> 
 		 <p><em>Materials</em></p>

@@ -39,11 +39,13 @@
         <cfelse>
         <a class="w-nav-link nav-link" href="news.cfm" id="news">news</a>
         </cfif>
+        
         <cfif find("curriculum.cfm",#cgi.SCRIPT_NAME#) GT 0>
         <a class="w-nav-link nav-link w--current" href="curriculum.cfm" id="news">curriculum</a>
         <cfelse>
         <a class="w-nav-link nav-link" href="curriculum.cfm" id="news">curriculum</a>
         </cfif>
+        
         <cfif (find("collection.cfm",#cgi.SCRIPT_NAME#) GT 0) OR (#find("song.cfm",cgi.SCRIPT_NAME)# GT 0)>
         <a class="w-nav-link nav-link w--current" href="collection.cfm" >search the collection</a>
         <cfelse>
