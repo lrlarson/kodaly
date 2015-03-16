@@ -35,18 +35,18 @@
     <li ><a href="curriculum.cfm">Kod&aacute;ly and Education</a></li>
     <li><a href="introduction.cfm">Curriculum Introduction</a></li>
      <li><a href="sequence.cfm">Sequence of Concepts</a></li>
-    <li class="active"><a href="curriculum_grade1.cfm">Curriculum, Grades 1-2</a></li>  
-      
+    <li ><a href="curriculum_grade1.cfm">Grade 1 Curriculum</a></li> 
+    <li class="active"><a href="curriculum_grade2.cfm">Grade 2 Curriculum</a></li>  
     </ul> 
   </div>    
     <div class="rightColumn">
-     <p><div class="h2">Curricula, Grades 1 & 2</div></p>
+     <p><div class="h2">Grade 2 Curriculum</div></p>
 
 <p>This curriculum guide is designed for teachers who have studied in Kodaly Teacher Education programs. Based on the design of the Hungarian curriculum mentioned in the Introduction, it indicates the core musical skill development for each lesson. This model has several advantages. </p>
 
 <p>Because it outlines just the music literacy portion of the curriculum, it allows the teacher freedom to include additional songs and singing games from various genres and cultures that are of most interest to the children in the classroom. To learn how to implement the curriculum, please read the accompanying Introduction. </p>
 
-<p>The curriculum assumes that children have had prior musical experiences in kindergarten, with emphasis on beat/rhythm development and in-tune singing. 70 lessons are included, for implementation in a twice a week music program over the course of a school year (45 minute classes are recommended; if 30 minute classes are scheduled, 3 classes per week are recommended). </p>
+<p>The Grade 1 curriculum assumes that children have had prior musical experiences in kindergarten, with emphasis on beat/rhythm development and in-tune singing. 70 lessons are included, for implementation in a twice a week music program over the course of a school year (45 minute classes are recommended; if 30 minute classes are scheduled, 3 classes per week are recommended). </p>
 
 <p>If music is offered just once a week, students will not be able to progress through the entire curriculum in one year. Three or more music classes per week will provide for more review, the use of the additional materials section, and greater integration of the emotional and intellectual learning that music can provide. </p>
 
@@ -80,8 +80,7 @@
 <p>Additional reading exercises, two-part exercises and arrangements are indicated which relate to the skill development level of the lesson. These can be used if there is additional class time, or students are able to move quickly (older beginners).</p>
    
     
-     <a href="pdf/grade1_curriculum.pdf" class="button">Download Curriculum for Grade 1</a>
-     <a href="pdf/grade2_curriculum.pdf" class="button">Download Curriculum for Grade 2</a>
+     <a href="pdf/grade2_curriculum.pdf" class="button">Download Curriculum</a>
 
 </div>     
      
