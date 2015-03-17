@@ -131,11 +131,11 @@
 <p><i>Preparation and reinforcement of learning objectives:</i> In order for children to be successful, each objective must be prepared and reinforced. As stated earlier, this curriculum is intended for teachers who have studied in Kodaly music education programs and who understand the process of review, point and reinforcement for each objective being presented in the lesson. Preparation and reinforcement of objectives are essential elements in implementing this curriculum, and cannot be presented accurately or adequately in writing.</p>
     </div>
    
-    <div class="section">
+    <div class="section rightColumnCurr">
 	    
+	    <a href="pdf/introduction.pdf" class="button">Download PDF Version</a>
 	    
-	    
-    </div>   
+    </div>  
   </main>
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

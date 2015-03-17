@@ -60,9 +60,9 @@
 <p>Kodály’s approach has been adapted worldwide. A strong emphasis on the development of the teacher’s own musicianship is a hallmark of the movement. It is a living philosophy constantly being shaped by research on how children learn music in cultural settings and complements the emerging focus on world music by today’s music educators. </p>
     </div>
    
-    <div class="section">
+    <div class="section rightColumnCurr">
 	    
-	    
+	    <a href="pdf/kodaly_and_education.pdf" class="button">Download PDF Version</a>
 	    
     </div>   
   </main>
