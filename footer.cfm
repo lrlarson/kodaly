@@ -34,7 +34,7 @@
       <div class="w-row">
         <div class="w-col w-col-6">
           <div>
-            <div class="footer-funder">Made possible by the The William and Flora Hewlett Foundation</div>
+            <div class="footer-funder">Made possible by The William and Flora Hewlett Foundation </div>
           </div>
         </div>
         <div class="w-col w-col-6">

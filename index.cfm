@@ -36,7 +36,7 @@
 <body>
    <cfinclude template="header.cfm">
     <main class="w-container hero-wrapper">
-        <div class="w-clearfix homepage-main-button"><a class="button search-collection" href="collection.cfm">Search the Collection</a><a class="button" href="collection.cfm">View All Titles in Collection</a>
+        <div class="w-clearfix homepage-main-button"><a class="button search-collection" href="collection.cfm">Search the Collection</a><a class="button search-collection" href="collection.cfm">View All Titles in Collection</a>
         </div>
 
         <div class="hero-carousel">
@@ -162,6 +162,7 @@
   ga('send', 'pageview');
 
 </script>
+
 
 </body>
 

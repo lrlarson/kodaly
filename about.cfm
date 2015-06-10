@@ -96,6 +96,9 @@ Ann Hoog, <span class="work-title">Folklife Specialist</span><br />
 
 <h4> Copyright Notice</h4>
 <p>We have made every effort to determine the copyright status of each song and recording included on this website, to identify the copyright owner, and to secure permission where necessary. We hope that copyright owners will pardon any omissions or errors and will notify us so that corrections can be made. </p>
+<p>
+All other text, analyses, musical transcriptions, curricula and materials other than recordings as discussed above are &copy; 2015 by the Kodaly Center at Holy Names University and are intended to be used solely within the educational context of this website. Any other use, including redistribution of any kind, requires written permission from the copyright holder. 	
+</p>
 
     </div>
     </main>

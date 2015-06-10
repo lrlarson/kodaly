@@ -764,6 +764,9 @@ line-height: 2em;
 	text-decoration: none;
 	color: #b50430;
 }
+a:hover.search-collection{
+	color: #FFF;
+}
 .active {
 	font-style: italic;
 	color: #b50430 !important;
