@@ -100,7 +100,7 @@ WHERE     ([tbl Title Melodic Element].[Title Key] = #titleKey#)
 		<cfargument name="forms" type="numeric" required="true">
 		<cfargument name="scale" type="numeric" required="true">
 		<cfargument name="range" type="numeric" required="true">
-		<cfargument name="notes" type="numeric" required="true">
+		<cfargument name="tonalCenterID" type="any" required="true">
 		<cfargument name="melodicElement" type="numeric" required="true">
 		<cfargument name="rhythmicElement" type="numeric" required="true">
 		<cfargument name="meter" type="numeric" required="true">
@@ -172,8 +172,8 @@ FROM         tbl_Titles INNER JOIN
 			</cfif>
 			
 			/*Notes */
-			<cfif notes NEQ -1>
-			AND [NOTE] = #notes#
+			<cfif tonalCenterID NEQ -1>
+			AND [tonalCenterID] = #tonalCenterID#
 			</cfif>
 			
 			/*Melodic Elements */

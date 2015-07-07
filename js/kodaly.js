@@ -25,6 +25,8 @@ var grades = '_none';
 var searchString = '';
 var subGame = -1;
 var audioPlaying = -1;
+var tonalCenterID = -1;
+
 
 
     var init = function(){
@@ -279,7 +281,7 @@ var handleMobileAudioClick = function(){
         } else{
             $('#'  + target).css('background-color','#8c8c84');
         }
-}
+	}
 
     var getSelectStates = function(){
 
@@ -291,7 +293,7 @@ var handleMobileAudioClick = function(){
         forms = $('#selectForms').val();
         scale = $('#selectScale').val();
         range = $('#selectRange').val();
-        notes = $('#selectNotes').val();
+        tonalCenterID = $('#selectNotes').val();
         melodicElement = $('#selectMelodicElements').val();
         rhythmicElement = $('#selectRythmicElements').val();
         meter = $('#selectMeters').val();
@@ -339,7 +341,7 @@ var handleMobileAudioClick = function(){
             forms:forms,
             scale:scale,
             range:range,
-            notes:notes,
+            tonalCenterID:tonalCenterID,
             melodicElement:melodicElement,
             rhythmicElement:rhythmicElement,
             meter:meter,
