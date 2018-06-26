@@ -25,32 +25,38 @@
         </div>
         <nav class="w-nav-menu nav-menu" role="navigation">
         <cfif find("the-kodaly-vision",#cgi.SCRIPT_NAME#) GT 0>
-        <a class="w-nav-link nav-link w--current" href="the-kodaly-vision.cfm" id="vision">the kod&aacute;ly vision</a>
+        <a class="w-nav-link nav-link w--current" href="the-kodaly-vision.cfm" id="vision">The Kod&aacute;ly Vision</a>
         <cfelse>
-        <a class="w-nav-link nav-link" href="the-kodaly-vision.cfm" id="vision">the kod&aacute;ly vision</a>
+        <a class="w-nav-link nav-link" href="the-kodaly-vision.cfm" id="vision">The Kod&aacute;ly Vision</a>
         </cfif>
         <cfif find("the-kodaly-center.cfm",#cgi.SCRIPT_NAME#) GT 0>
-        <a class="w-nav-link nav-link w--current" href="the-kodaly-center.cfm" id="center">the kod&aacute;ly center</a>
+        <a class="w-nav-link nav-link w--current" href="the-kodaly-center.cfm" id="center">The Kod&aacute;ly Center</a>
         <cfelse>
-        <a class="w-nav-link nav-link" href="the-kodaly-center.cfm" id="center">the kod&aacute;ly center</a>
+        <a class="w-nav-link nav-link" href="the-kodaly-center.cfm" id="center">The Kod&aacute;ly Center</a>
         </cfif>
         <cfif find("news.cfm",#cgi.SCRIPT_NAME#) GT 0>
-        <a class="w-nav-link nav-link w--current" href="news.cfm" id="news">news</a>
+        <a class="w-nav-link nav-link w--current" href="news.cfm" id="news">News</a>
         <cfelse>
-        <a class="w-nav-link nav-link" href="news.cfm" id="news">news</a>
+        <a class="w-nav-link nav-link" href="news.cfm" id="news">News</a>
         </cfif>
         
         <cfif find("curriculum.cfm",#cgi.SCRIPT_NAME#) GT 0>
-        <a class="w-nav-link nav-link w--current" href="curriculum.cfm" id="news">curriculum</a>
+        <a class="w-nav-link nav-link w--current" href="curriculum.cfm" id="news">Resources</a>
         <cfelse>
-        <a class="w-nav-link nav-link" href="curriculum.cfm" id="news">curriculum</a>
+        <a class="w-nav-link nav-link" href="curriculum.cfm" id="news">Resources</a>
         </cfif>
         
         <cfif (find("collection.cfm",#cgi.SCRIPT_NAME#) GT 0) OR (#find("song.cfm",cgi.SCRIPT_NAME)# GT 0)>
-        <a class="w-nav-link nav-link w--current" href="collection.cfm" >search the collection</a>
+        <a class="w-nav-link nav-link w--current" href="collection.cfm" >Search the Collection</a>
         <cfelse>
-        <a class="w-nav-link nav-link" href="collection.cfm" >search the collection</a>
+        <a class="w-nav-link nav-link" href="collection.cfm" >Search the Collection</a>
         </cfif>
+
+      <cfif (find("collection.cfm",#cgi.SCRIPT_NAME#) GT 0) OR (#find("song.cfm",cgi.SCRIPT_NAME)# GT 0)>
+              <a class="w-nav-link nav-link w--current" href="https://www.hnu.edu/about/programs-centers/kodaly-center/give-kodaly-center" >Donate</a>
+      <cfelse>
+              <a class="w-nav-link nav-link" href="https://www.hnu.edu/about/programs-centers/kodaly-center/give-kodaly-center" >Donate</a>
+      </cfif>
         
     	<!--
         <a class="w-nav-link nav-link" href="Resources.cfm" id="search">curriculum </a>

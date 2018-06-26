@@ -311,24 +311,14 @@
                 <td><img src="notes/ti-ta.png" class="notes"></td>
               </tr>
               </cfif>
-              <cfif songDetails.ta EQ 1>
-              <tr>
-                <td width="50%">ta</td>
-                <td><img src="notes/ta.png" class="notes"></td>
-              </tr>
-              </cfif>
+              
               <cfif songDetails.ta_ti EQ 1>
               <tr>
                 <td width="25%">ta-ti</td>
                 <td><img src="notes/ta-ti.png" class="notes"></td>
               </tr>
               </cfif>
-              <cfif songDetails.ta_a EQ 1>
-              <tr>
-                <td width="50%">ta-a</td>
-                <td><img src="notes/ta-a.png" class="notes"></td>
-              </tr>
-              </cfif>
+              
               <cfif songDetails.ta_a_a EQ 1>
               <tr>
                 <td width="50%">ta-a-a</td>

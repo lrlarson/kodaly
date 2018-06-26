@@ -87,7 +87,7 @@
     <cfquery name="regions" datasource="kodaly">
 SELECT Region_ID AS data, Region AS label
 FROM dbo.Region_Table
-WHERE Region_ID <> 16
+WHERE Region_ID <> 16 
 ORDER BY Region
     </cfquery>
     <cfreturn regions>
@@ -97,7 +97,7 @@ ORDER BY Region
     <cfquery name="ethicy" datasource="kodaly">
 SELECT Ethnicity_ID AS data, Ethnicity AS label
 FROM dbo.Ethnicity_Table
-WHERE Ethnicity_ID <> 13
+WHERE Ethnicity_ID <> 13 and Ethnicity_ID <> 10
 ORDER BY Ethnicity
     </cfquery>
     <cfreturn ethicy>

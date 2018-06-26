@@ -78,6 +78,10 @@ background-color: rgba(0, 0, 0, 0.3);
 border-color: #b50430;
 background-color: #b50430;
 }
+.button.donate:hover{
+	background-color: beige;
+	color: black;
+}
 .button.search-collection {
 padding-left: 45px;
 background-image: url('../images/icon_search_home.svg');
@@ -225,6 +229,23 @@ background-repeat: no-repeat;
 .content-box.selected {
 box-shadow: black 0px 0px 8px 0px inset, rgba(0, 0, 0, 0.49) 0px 0px 8px 4px inset;
 }
+.content-box.about{
+	height: 200px;
+	min-height: initial;
+
+}
+.aboutText a{
+	color: white!important;
+}
+
+.about .aboutText a{
+	color: white!important;
+}
+
+.aboutText a:hover{
+
+	text-decoration: underline!important;
+}
 .boxes-wrapper {
 padding: 30px;
 background-color: white;
@@ -362,6 +383,24 @@ color: white;
 font-size: 16px;
 line-height: 20px;
 }
+.homepage-box-text.aboutText{
+	bottom: 40px;
+	position: relative;
+	margin-left: 10px;
+	line-height: 30px;
+	font-size: small;
+}
+#listOfLinks{
+	bottom: 25px;
+	margin-left: 55px;
+	line-height: 24px;
+}
+#listOfLinks a{
+	color:white;
+}
+#listOfLinks a:hover{
+	color: #b54e4b;
+}
 .homepage-main-button {
 position: absolute;
 left: 0px;
@@ -375,6 +414,8 @@ clear: none;
 }
 .kodaly-header-link {
 color: black;
+	font-size: 26px;
+	line-height: 35px;
 }
 .kodaly-header-link:hover {
 text-decoration: none;

@@ -65,15 +65,31 @@
                     </div>
                     <p class="homepage-box-text">
                         <br>
-                        <br>Learn about Zoltán Kodály, his history, philosophy, and its application in the classroom.</p>
+                        <br>Learn about Zoltán Kodály, his history, philosophy, and its application in the classroom.
+                    </p>
                 </a>
             </div>
             <div class="w-col w-col-4 w-col-stack">
-                <a class="w-inline-block content-box center" href="the-kodaly-center.cfm">
+                <div class="w-inline-block content-box center" >
                     <div class="box-title">
                         <div>The Kodály Center</div>
                     </div>
-                </a>
+                    <span class="homepage-box-text"id="listOfLinks" >
+                        <ul >
+                            <li>• <a href="http://www.hnu.edu/about/programs-centers/kodaly-summer-institute/program-information/about-kodaly/summer-institute/kodaly-fees" target="_blank">Summer Program</a></li>
+                            <li>• <a href="http://www.hnu.edu/academics/graduate-degrees/master-music" target="_blank">Academic Year Program</a></li>
+                            <li>• <a href="http://www.hnu.edu/about/programs-centers/kodaly-center/special-classes-training-festivals" target="_blank">Events and Classes</a></li>
+                            <li>• <a href="https://www.hnu.edu/about/programs-centers/kodaly-summer-institute/program-information/about-kodaly/faculty-staff-biographies" target="_blank">Faculty</a></li>
+                            <li>• <a href="https://www.hnu.edu/about/programs-centers/kodaly-center/advisory-board">Advisory Board</a></li>
+                            <li>• <a href="https://www.youtube.com/watch?v=bG9GVoyaas8">Watch a 2 minute video</a></li>
+                            <li>• <a href="https://www.youtube.com/watch?v=xLc1gHDI53o&feature=youtu.be">Watch a 5 minute video</a></li>
+                            
+                        </ul>
+                    
+                       
+                
+                    </span>
+                </div>
             </div>
             <div class="w-col w-col-4 w-col-stack">
                 <div class="content-box">

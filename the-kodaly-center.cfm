@@ -28,19 +28,66 @@
     <div class="w-container hero-wrapper kodaly-center"></div>
   </div>
   <main class="w-container main-content">
+  <div class="w-row">
+      <div class="w-col w-col-4 w-col-stack">
+          <div class="w-inline-block content-box about ">
+              <div>
+                  <div class="box-title">
+                      <div>Programs</div>
+                  </div>
+              </div>
+              <p class="homepage-box-text aboutText">
+                  <br>
+                  <a href="http://www.hnu.edu/about/programs-centers/kodaly-summer-institute/program-information/about-kodaly/summer-institute/kodaly-fees" target="_blank"> Summer</a><br />
+                  <a href="http://www.hnu.edu/academics/graduate-degrees/master-music" target="_blank"> Academic Year</a><br />
+                  <a href="http://www.hnu.edu/about/programs-centers/kodaly-center/special-classes-training-festivals" target="_blank"> Community Classes</a> <br />
+
+              </p>
+          </div>
+      </div>
+      <div class="w-col w-col-4 w-col-stack">
+          <div class="w-inline-block content-box about" >
+              <div class="box-title">
+                  <div>Events</div>
+              </div>
+              <p class="homepage-box-text aboutText" >
+                <br />
+
+                  <a href="http://www.hnu.edu/about/programs-centers/kodaly-summer-institute/program-information/about-kodaly/calendar" target="_blank"> Calendar</a><br />
+                  <a href="##">  Children's Choral Festival</a><br />
+              </p>
+          </div>
+      </div>
+      <div class="w-col w-col-4 w-col-stack">
+          <div class="w-inline-block content-box about" >
+              <div class="box-title">
+                  <div>People</div>
+              </div>
+              <p class="homepage-box-text aboutText" >
+                  <br />
+
+                  <a href="https://www.hnu.edu/about/programs-centers/kodaly-summer-institute/program-information/about-kodaly/faculty-staff-biographies" target="_blank"> Faculty</a><br />
+                  <a href="https://www.hnu.edu/about/programs-centers/kodaly-center/advisory-board"> Advisory Board</a><br />
+              </p>
+          </div>
+      </div>
+<!--- end of news content owl wrapper--->
+</div>
+</div>
+</div>
     <div class="section">
       <div class="h2">The Kod&aacute;ly Center</div>
       <p>The Kod&aacute;ly Center offers training and resources for teachers, conductors, parents, and others interested in the musical development of children. Students from throughout the world come to the Center – located on the campus of Holy
         Names University in Oakland, California – to develop their musicianship and learn how to apply the philosophy of Zolt&aacute;n Kod&aacute;ly in choral and classroom settings.</p>
       <p>Founded in 1969 by Sr. Mary Alice Hein, the Kod&aacute;ly Center has received support from the Ford Foundation and the William and Flora Hewlett Foundation. The Center enjoys an international reputation as one of the major centers for Kod&aacute;ly music education
         in North America. Graduates of the program teach throughout the United States and Canada, as well as in Australia, Japan, Taiwan, Peru, Brazil, and the Philippines.</p>
-      <p>The Kod&aacute;ly Center offers seminars and introductory classes, summer courses for professional development, and academic year certificate and degree programs for musicians and music educators. The <a href="http://www.hnu.edu/academics/graduatePrograms/musicKodalyMA.html">master’s degree program</a> includes courses in solfège
+      <p>The Kod&aacute;ly Center offers seminars and introductory classes, summer courses for professional development, and academic year certificate and degree programs for musicians and music educators. The <a href="https://www.hnu.edu/academics/graduate-programs/master-music/master-music-music-education-kodaly-emphasis">master’s degree program</a> includes courses in solfège
         and musicianship, choral conducting, and choral singing taught by Hungarian faculty. Supervised student teaching placements in neighboring public schools are provided.</p>
       <p>An integrated and practical curriculum, a supportive atmosphere, and a high standard of excellence are hallmarks of the Center’s programs. Generous funding by the William and Flora Hewlett Foundation enables the Kod&aacute;ly Center for Music Education
         to award fellowships to qualified students.</p>
     </div>
     <div class="section">
-      <div class="h2">History of the Collection</div>
+      <div class="h2">History of the Folk Song Collection</div>
       <p>This collection grew out of a 1966 meeting between the prominent Hungarian composer and music educator, Zolt&aacute;n Kod&aacute;ly and Sr. Mary Alice Hein, a professor of music at Holy Names University (HNU). Kod&aacute;ly’s radically democratic vision – his belief
         that music, an essential language for knowing oneself and the world, should be the birthright of every human being – impressed Sr. Mary Alice. Soon, she set out to make Holy Names University a center for Kod&aacute;ly education in the United States.</p>
       <p>Recognizing the Kod&aacute;ly principle that children become connected to their communities and the wider world by hearing and singing the traditional folk songs of their own culture, Sr. Mary Alice, who was later joined by archivist Eleanor G. (Toni)
